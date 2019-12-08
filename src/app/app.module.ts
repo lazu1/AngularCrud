@@ -7,8 +7,8 @@ import { ProductAddComponent } from './product-add/product-add.component';
 import { ProductGetComponent } from './product-get/product-get.component';
 import { ProductEditComponent } from './product-edit/product-edit.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 import { ProductsService } from './products.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,13 +22,12 @@ import { ProductsService } from './products.service';
     AppRoutingModule,
     SlimLoadingBarModule,
     ReactiveFormsModule,
-     HttpClientModule,
-     ProductsService
+     HttpClientModule
 
 
 
   ],
-  providers: [],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
