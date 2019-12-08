@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\Api",
+    "\\src\\app\\product-add",
+    "\\src\\app\\product-edit",
+    "\\src\\app\\product-get"
+  ],
+  "PreviewInSolutionExplorer": false
+}
