@@ -11,9 +11,9 @@ export class ProductGetComponent implements OnInit {
 
 
   products= [
-		{'ProductName': 'Alu','ProductDescription': '10bags','ProductPrice': 100},
-		{'ProductName':'Cauli', 'ProductDescription':'10kgs','ProductPrice': 20000},
-		{'ProductName':'Bhanta', 'ProductDescription':'loaded from ktm','ProductPrice': 677777},
+		{'ProductName': 'bag','ProductDescription': '10bags','ProductPrice': 100},
+		{'ProductName':'comp', 'ProductDescription':'lenovo','ProductPrice': 20000},
+		{'ProductName':'veggies', 'ProductDescription':'loaded from ktm','ProductPrice': 677777},
     {'ProductName': 'mango','ProductDescription': 'ripe','ProductPrice': 100},
 		{'ProductName':'apple', 'ProductDescription':'red','ProductPrice': 20000},
 		{'ProductName':'cat', 'ProductDescription':'furry','ProductPrice': 677777},
