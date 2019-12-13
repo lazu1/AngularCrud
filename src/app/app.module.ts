@@ -9,6 +9,7 @@ import { ProductEditComponent } from './product-edit/product-edit.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductsService } from './products.service';
 import {HttpClientModule} from '@angular/common/http';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {HttpClientModule} from '@angular/common/http';
     AppRoutingModule,
     SlimLoadingBarModule,
     ReactiveFormsModule,
+    NgxPaginationModule,
      HttpClientModule
 
 

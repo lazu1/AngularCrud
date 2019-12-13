@@ -9,7 +9,17 @@ import { ProductsService } from '../products.service';
 })
 export class ProductGetComponent implements OnInit {
 
-  products: Product[];
+
+  products= [
+		{'ProductName': 'Alu','ProductDescription': '10bags','ProductPrice': 100},
+		{'ProductName':'Cauli', 'ProductDescription':'10kgs','ProductPrice': 20000},
+		{'ProductName':'Bhanta', 'ProductDescription':'loaded from ktm','ProductPrice': 677777},
+    {'ProductName': 'mango','ProductDescription': 'ripe','ProductPrice': 100},
+		{'ProductName':'apple', 'ProductDescription':'red','ProductPrice': 20000},
+		{'ProductName':'cat', 'ProductDescription':'furry','ProductPrice': 677777},
+		{'ProductName':'dog', 'ProductDescription':'chubby','ProductPrice': 77777}
+	];
+
   constructor(private ps: ProductsService) { }
 
   ngOnInit() {
